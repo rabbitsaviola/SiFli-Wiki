@@ -1,9 +1,9 @@
 # 软硬件工具
-[Impeller]: http://10.23.10.196:19000/web-file/tools/Impeller_COMMON.7z
-[GraphicsTool]: http://10.23.10.196:19000/web-file/tools/GraphicsTool.7z
-[Sifli_EQ]: http://10.23.10.196:19000/web-file/tools/Sifli_EQ.7z
-[Sifli_Trace]: http://10.23.10.196:19000/web-file/tools/Sifli_Trace.7z
-[Sifli_RfTool]: http://10.23.10.196:19000/web-file/tools/Sifli_RfTool.7z
+[Impeller]: https://webfile.lovemcu.cn/file/tools/Impeller_COMMON.7z
+[GraphicsTool]: https://webfile.lovemcu.cn/file/tools/GraphicsTool.7z
+[Sifli_EQ]: https://webfile.lovemcu.cn/file/tools/Sifli_EQ.7z
+[Sifli_Trace]: https://webfile.lovemcu.cn/file/tools/Sifli_Trace.7z
+[Sifli_RfTool]: https://webfile.lovemcu.cn/file/tools/Sifli_RfTool.7z
 ```{important}
 
 思澈科技提供了一系列的软硬件工具，用于方案开发、调试、测试等环节。这些工具包括烧录工具、图形转换工具、存储调试工具、屏幕模组调试等。
