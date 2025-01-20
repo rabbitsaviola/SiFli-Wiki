@@ -46,7 +46,8 @@
     :hidden:
 
     sdk/index
-    api/index
+    SDK文档  <https://wiki.sifli.com/sdk/sf32lb52x>
+    API文档  <https://wiki.sifli.com/sdk/sf32lb52x/api>
 
 .. toctree::
     :caption: 硬件开发
