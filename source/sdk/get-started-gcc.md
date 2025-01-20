@@ -1,8 +1,8 @@
 # 快速入门-GCC
 
-[SDK]: https://iottest.lovemcu.cn/web-file/sdk/release_v2.2.0.zip
-[Env]: https://iottest.lovemcu.cn/web-file/sdk/SiFli_Env.exe
-[Trace]: https://iottest.lovemcu.cn/web-file/sdk/SifliTrace_v2.2.6.7z
+[SDK]: https://webfile.lovemcu.cn/file/sdk/release_v2.2.0.zip
+[Env]: https://webfile.lovemcu.cn/file/sdk/SiFli_Env.exe
+[Trace]: https://webfile.lovemcu.cn/file/sdk/SifliTrace_v2.2.6.7z
 
 
 ## 准备工作
