@@ -104,7 +104,7 @@ html_theme_options = {
         },
         {
             "title": "API文档",
-            "url": "api/index",
+            "url": "https://wiki.sifli.com/sdk/sf32lb52x/api",
         },
         {
             "title": "关于我们",

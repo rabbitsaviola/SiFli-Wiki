@@ -30,7 +30,7 @@
         从头开始，上手使用，新老用户都适用。
 
     .. grid-item-card:: :octicon:`browser` API说明
-        :link: api/index.html
+        :link: https://wiki.sifli.com/sdk/sf32lb52x/api
 
         详细的API文档，帮助你更好的使用。适合深入开发。
 
