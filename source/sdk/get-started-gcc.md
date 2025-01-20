@@ -1,6 +1,6 @@
 # 快速入门-GCC
 
-[SDK]: https://webfile.lovemcu.cn/file/sdk/release_v2.2.0.zip
+[SDK]: https://webfile.lovemcu.cn/file/sdk/SiFli-SDK-2.3.zip
 [Env]: https://webfile.lovemcu.cn/file/sdk/SiFli_Env.exe
 [Trace]: https://webfile.lovemcu.cn/file/sdk/SifliTrace_v2.2.6.7z
 
@@ -45,7 +45,9 @@ SiFli Env命令行窗口类似Windows的命令行，可以执行常用的Windows
 
 
 ## 获取SiFli SDK
-点击链接[SiFli SDK][SDK]下载SiFli SDK，下载完成后解压到任意目录，例如解压到C盘work目录下，解压后的目录结构如下图，下文将该目录称为SDK根目录，该目录包含了SDK环境设置脚本`set_env.bat`
+可以直接使用git clone获取SiFli SDK，也可以直接下载SDK压缩包。git链接为：[SiFli SDK](https://github.com/OpenSiFli/SiFli-SDK),使用git需要提前安装git工具，安装方式自行搜索。
+
+下面以直接下载SDK压缩包为例，点击链接[SiFli SDK][SDK]下载SiFli SDK，下载完成后解压到任意目录，例如解压到C盘work目录下，解压后的目录结构如下图，下文将该目录称为SDK根目录，该目录包含了SDK环境设置脚本`set_env.bat`
 ```{image} assets/sdk_folder.png
 :alt: sdk folder
 ```
