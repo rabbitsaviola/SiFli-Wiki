@@ -185,5 +185,5 @@ ret = HAL_I2C_Master_Receive(&i2c_Handle, EEPROM_I2C_ADDRESS, (uint8_t *)pdata, 
 ## 更新记录
 |版本  |日期    |发布说明 |
 |:---  |:---    |:---    |
-|0.0.1 |12/2024 |初始版本 |
+|0.0.1 |01/2025 |初始版本 |
 |      |        |        |

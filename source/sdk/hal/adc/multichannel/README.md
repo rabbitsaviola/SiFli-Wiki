@@ -178,5 +178,5 @@ static void example_adc_vbat_fact_calib(uint32_t voltage, uint32_t reg)
 ## 更新记录
 |版本 |日期   |发布说明 |
 |:---|:---|:---|
-|0.0.1 |10/2024 |初始版本 |
+|0.0.1 |01/2025 |初始版本 |
 | | | |

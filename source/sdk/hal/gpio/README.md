@@ -202,5 +202,5 @@ void HAL_GPIO_EXTI_Callback(GPIO_TypeDef *hgpio, uint16_t GPIO_Pin)
 ## 更新记录
 |版本  |日期    |发布说明 |
 |:---  |:---    |:---    |
-|0.0.1 |12/2024 |初始版本 |
+|0.0.1 |01/2025 |初始版本 |
 |      |        |        |
