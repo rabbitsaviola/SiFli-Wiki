@@ -1,0 +1,65 @@
+# This is a basic workflow to help you get started with Actions
+
+name: bulid
+
+# Controls when the workflow will run
+on:
+  # main和beta分支有push或者pull request事件时触发
+  push:
+    branches: [ "main" ,"beta"]
+  pull_request:
+    branches: [ "main" ,"beta"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v4
+
+      # Runs a single command using the runners shell
+      - name: publish
+        env:
+            BUILD_CONFIG: ${{ secrets.BUILD_CONFIG }}
+        run: |
+          echo "安装依赖"
+          sudo apt update
+          sudo pip3 install setuptools
+          sudo pip3 install -r requirements.txt
+          echo "开始生成静态网页"
+          sphinx-build -b html ./source ./build -E
+          echo "生成静态网页完成"
+          echo "打包build文件夹"
+          tar -zcvf build.tar.gz build
+          echo "打包完成"
+          echo "发布到服务器"
+          chmod +x ./tools/mc
+          export PATH=$PATH:$HOME/work/SiFli-Wiki/SiFli-Wiki/tools
+          mc alias set myminio $BUILD_CONFIG
+          mc cp  ./build.tar.gz myminio/web/${GITHUB_REF##*/}.tar.gz
+          echo "发布完成"
+
+
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: build
+          path: build.tar.gz   
+      
+      - name: Webhook
+        run: |
+          echo "发送webhook"
+          curl -X POST -H "Content-Type: application/json" -d '{"event": "action", "action": "build", "branch": "${{ github.ref }}"}' ${{ secrets.WEBHOOK_URL }}
+          echo "发送webhook完成"
+      
+
+
+

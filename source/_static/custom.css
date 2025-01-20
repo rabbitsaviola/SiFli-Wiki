@@ -1,0 +1,7 @@
+html[data-accent-color='blue'] {
+    --accent-9: #26bae8;
+}
+
+html.light {
+    --sy-c-link:var(--accent-9)
+}

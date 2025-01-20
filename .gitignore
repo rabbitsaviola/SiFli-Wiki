@@ -1,0 +1,8 @@
+# 所有文件夹内的 src和project文件夹
+
+src/
+project/
+
+#build文件夹
+build/
+wiki/
