@@ -70,8 +70,13 @@ html_logo = './_static/logo_white.png'
 html_favicon = './_static/logo_favicon.png'
 
 html_css_files = [
-  'custom.css',
+    'custom.css',
 ]
+html_js_files = [
+    'js/baidu.js',
+]
+
+
 html_theme_options = {
     "accent_color": "blue",
     "globaltoc_expand_depth": 1,
