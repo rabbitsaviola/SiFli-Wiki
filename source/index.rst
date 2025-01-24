@@ -45,9 +45,10 @@
     :caption: 软件开发
     :hidden:
 
-    sdk/index
-    SDK文档  <https://wiki.sifli.com/sdk/sf32lb52x>
-    API文档  <https://wiki.sifli.com/sdk/sf32lb52x/api>
+    快速入门  <https://docs.sifli.com/projects/sdk/v2.3/sf32lb52x/quickstart/get-started.html>
+    示例教程  <https://docs.sifli.com/projects/sdk/v2.3/sf32lb52x/example/hal/index.html>
+    SDK文档  <https://docs.sifli.com/projects/sdk/v2.3/sf32lb52x/>
+    API文档  <https://docs.sifli.com/projects/sdk/v2.3/sf32lb52x/api/index.html>
 
 .. toctree::
     :caption: 硬件开发
