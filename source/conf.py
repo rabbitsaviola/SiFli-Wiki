@@ -35,6 +35,7 @@ extensions = [
     #makrdown支持
     "myst_parser",
     "sphinx_copybutton"
+    "sphinx_sitemap"
 ]
 
 # Add any paths that contain templates here, relative to this directory.
