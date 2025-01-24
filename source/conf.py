@@ -34,7 +34,7 @@ extensions = [
     "sphinx_design",
     #makrdown支持
     "myst_parser",
-    "sphinx_copybutton"
+    "sphinx_copybutton",
     "sphinx_sitemap"
 ]
 
