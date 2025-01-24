@@ -120,6 +120,9 @@ html_theme_options = {
 
 }
 
+html_baseurl = 'https://wiki.sifli.com/'
+sitemap_url_scheme = "{link}"
+
 myst_enable_extensions = [
     "amsmath",
     "attrs_inline",
