@@ -7,8 +7,6 @@ on:
   # main和beta分支有push或者pull request事件时触发
   push:
     branches: [ "main" ,"beta"]
-  pull_request:
-    branches: [ "main" ,"beta"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
