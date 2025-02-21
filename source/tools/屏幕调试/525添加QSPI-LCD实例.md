@@ -31,7 +31,7 @@ please input the serial port num:7 #然后选择em-lb525模块连接的串口号
 #### 2.2 Menuconfig添加NV3041A
 1） 修改Kconfig在menuconfig中生成该屏的选项<br>
 文本编辑器打开sdk\customer\boards\Kconfig_lcd，添加qspi的该屏的选项和分辨率，如下<br>
-![alt text](./assets/NV3041A-kconfig0.png)<br>
+![alt text](./assets/nv3041a-kconfig0.png)<br>
 ```
 # menuconfig 生成菜单呈现的选项
         config LCD_USING_TFT_NV3041A
